@@ -5,5 +5,5 @@
 A Jenkins slave docker container
 
 ```
-docker run -d --name jenkins-slave michaelcoll/jenkins-slave
+docker run -d -p 4243:22 --name jenkins-slave michaelcoll/jenkins-slave
 ```
